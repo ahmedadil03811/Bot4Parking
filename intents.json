@@ -1,0 +1,39 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+			"responses": ["Hello!", "Hi, I'm your parking assistant. How can I help?", "Hi there, how can I help you find or pay for parking?"]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+			"responses": ["Sad to see you go :(", "Talk to you later", "Goodbye! Have a safe drive."]
+		},
+		{
+			"tag": "find_parking",
+			"patterns": ["Find me parking", "Where is the nearest parking?", "I need a parking spot", "Find the shortest route to a parking lot", "Show me nearby parking"],
+			"responses": ["Searching for the nearest parking spots and best routes for you..."]
+		},
+		{
+			"tag": "pay_parking",
+			"patterns": ["Pay for my parking", "Autopay for this spot", "Charge my account", "Make a payment for parking", "I want to pay"],
+			"responses": ["Processing your parking payment now...", "Activating autopay for your selected spot."]
+		},
+		{
+			"tag": "get_decided_parking",
+			"patterns": ["Which parking spot did I choose?", "What's my destination?", "Confirm my parking spot", "Where am I navigating to?", "Show my selected parking"],
+			"responses": ["Checking your currently selected parking destination..."]
+		},
+		{
+			"tag":"set_account_balance_limit",
+			"patterns": ["Set my balance limit", "Don't charge more than $20", "Set autopay limit", "Update my payment settings", "Set a payment threshold"],
+			"responses": ["Opening your payment settings to update your balance limit..."]
+		},
+		{
+			"tag": "get_balance",
+			"patterns": ["What is my balance?", "Show my balance", "How much is my balance set to?", "get balance"],
+			"responses": ["Fetched your current account balance..."]
+		}
+	]
+}
